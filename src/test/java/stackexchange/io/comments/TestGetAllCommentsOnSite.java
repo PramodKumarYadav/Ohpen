@@ -16,7 +16,7 @@ public class TestGetAllCommentsOnSite {
         assertResponse.canAssertResponseStatus(200,response.getStatusCode());
     }
     @Test
-    public void canGetAllCommentsOnSiteInAlphabeticalOrder7() {
+    public void canGetAllCommentsOnSiteInAlphabeticalOrder8() {
         Response response = commentsMethods.getReturnAllCommentsOnTheSite("comments","order=desc&sort=creation&filter=default&site=stackoverflow&run=true");
         assertResponse.canAssertResponseStatus(200,response.getStatusCode());
     }
