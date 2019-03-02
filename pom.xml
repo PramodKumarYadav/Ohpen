@@ -95,7 +95,7 @@
 
     <profiles>
         <profile>
-            <id>RunAllClasses</id>
+            <id>RunMixClasses</id>
             <build>
                 <plugins>
                     <plugin>
@@ -104,7 +104,8 @@
                         <version>2.22.1</version>
                         <configuration>
                              <includes>
-                                 <include>**/RunAllClasses.class</include>
+                                 <include>**/RunCommentsAndBadgesClasses.class</include>
+                                 <include>**/RunCommentsAndPrivilegesClasses.class</include>
                              </includes>
                         </configuration>
                     </plugin>
